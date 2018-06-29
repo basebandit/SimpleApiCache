@@ -1,0 +1,36 @@
+{
+  "name": "braiven",
+  "version": "1.0.0",
+  "description": "A simple api for braiven",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js src/index.js",
+    "lint": "./node_modules/.bin/eslint **/*.js",
+    "lint-fix": "./node_modules/.bin/eslint --fix **/*.js",
+    "seed": "node seed"
+  },
+  "author": "basebandit",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "joi": "^13.4.0",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5",
+    "pg": "^7.4.3",
+    "redis": "^2.8.0",
+    "sequelize": "^4.38.0",
+    "uuid": "^3.2.1"
+  }
+}
